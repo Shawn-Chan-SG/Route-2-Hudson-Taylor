@@ -2,11 +2,17 @@
 // Content and photos below are taken directly from each CPn/CPn Checkpoint
 // Guide.docx (location map, wayfinding photos, board photos, and all text).
 //
-// NOTE FOR FACILITATOR (Shawn): the answers for CP2, CP4, CP6 and CP7 were
+// NOTE FOR FACILITATOR (Shawn): the answers for CP2, CP6 and CP7 were
 // inferred from the checkpoint guide clue text because CP_Keyworrd_Matches.xls
-// was not available. CP4's answer is a placeholder (it is normally given out
-// over WhatsApp after the selfie is verified). Please double-check every
-// "answer" value below on-site before the event and edit if needed.
+// was not available.
+// CP4 was updated 2026-07-23 to the new board-reading mechanism in
+// "CP4 Checkpoint Guide.docx" (word #26 of the paragraph in the red box on
+// the Sundaland board, starting "Plantations, ports and estates.....City in
+// Nature______"). The on-site photo of that paragraph is too blurry to OCR,
+// so "movement" below is INFERRED from the updated Hudson Taylor Passage.docx
+// wording ("...sparked a massive church planting [2]___") — please verify
+// word #26 on the actual board before the event and correct if needed.
+// Please double-check every "answer" value below on-site before the event.
 window.CP_DATA = {
   CP1: {
     id: "CP1",
@@ -70,17 +76,18 @@ window.CP_DATA = {
     subtitle: "",
     mapImg: "images/cp4-map.jpg",
     mapCaption: "CP4 location marked in red.",
-    directions: "Cross the bridge (enjoy the views!) and continue straight ahead to the Forest Discovery Centre.",
-    pathImgs: [],
-    board: "",
-    boardImg: "",
-    boardCaption: "",
-    hint: "This checkpoint does not have a board to read. Instead, look around the grass patch near the Centre for 3 small red round objects. Once your whole team has found them, gather together and take a group selfie there. WhatsApp your group selfie to 8369 6942 to receive this checkpoint's keyword. The keyword will not be given until the group selfie has been sent and verified.",
+    directions: "Cross the bridge (enjoy the views!) and continue straight ahead to the Forest Discovery Centre. Congratulations if you reached here — enter the Forest Discovery Centre as directed by the bird.",
+    pathImgs: [
+      { src: "images/cp4-path1.jpg", caption: "Cross the bridge and continue straight — follow the bird signage to the Forest Discovery Centre." }
+    ],
+    board: "Sundaland board (paragraph in the red box)",
+    boardImg: "images/cp4-board.jpg",
+    boardCaption: "Photo: the Sundaland board — find the paragraph in the red box.",
+    hint: "Look for the board, the key word is on the #26 word of the paragraph in the red box. The paragraph starts with “Plantations, ports and estates….. City in Nature______”",
     pattern: "",
-    answer: "persecution",
+    answer: "movement",
     contributesKeyword: true,
-    whatsapp: true,
-    whatsappNumber: "8369 6942"
+    whatsapp: false
   },
   CP5: {
     id: "CP5",
